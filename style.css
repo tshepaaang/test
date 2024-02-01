@@ -206,7 +206,6 @@ nav ul li a:hover::after{
     margin-bottom: 15px;
 }
 .services-list div a{ 
-   
     color: #4169E1;
     font-size: 12px;
     margin-top: 20px;
@@ -343,6 +342,8 @@ nav ul li a:hover::after{
     background: #4169E1;
 }
 
+
+
 .contact-right form{ 
     width: 100%;
 }
@@ -382,7 +383,7 @@ form .btn2{
 nav .fa-solid{ 
     display: none; 
 }
-@media only screen and (max-width:600px){ 
+@media (max-width:600px){ 
     #header{ 
         background-image: url(im);
 
@@ -444,7 +445,8 @@ nav .fa-solid{
         font-size: 14px;
         flex-basis: 100%;
         display: block;
-        width: 260px;
+        width: 100%;
+        padding-right: 0;
     } 
     .container{ 
         flex-basis: 100%;
